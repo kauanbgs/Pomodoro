@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 110vh;
+}
+
+:root {
+  --brand-color: #7F5ECA;
+  --font-family: "Montserrat", serif;
+}
+
+
+body {
+  background: linear-gradient(to bottom right, #7F5ECA, rgb(0, 0, 0));
+  background-repeat:no-repeat
+}
+
+.container .main .pomo {
+  background-color: #2D2B2B;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 832px;
+  width: 777px;
+}
+.container .main .pomo h1 {
+  font-family: var(--font-family);
+  color: var(--brand-color);
+  display: flex;
+  justify-content: center;
+  font-size: 95px;
+  padding-top: 220px;
+}
+
+.container .main .pomo .buttons {
+  display: flex;
+  gap: 50px; /* opcional */
+  justify-content: center;
+  
+}
+
+.container .main .pomo .buttons button {
+  width: 189px;
+  height: 60px;
+  background-color: var(--brand-color);
+  border: none;
+  border-radius: 10px;
+  margin-top: 10%;
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.container .main .pomo .buttons button:last-child {
+  background-color: transparent;
+  border: 2px solid var(--brand-color);
+}
+
+.container .main .pomo .slider {
+  justify-content: center;
+  width: 600px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #4C4A4A;
+  margin-top: -550px;
+  margin-left: 98px;
+}
+.container .main .pomo .slider div {
+  height: 100%;
+  border-radius: 10px;
+  background-color: var(--brand-color);
+}
+
+.container .main .pomo .buttons img {
+  margin-left: -7%;
+  margin-bottom: -2%;
+  width: 39px;
+  height: 22px;
+}
+
+.container .main .pomo .buttons img:last-child {
+  width: 32px;
+  height: 24px;
+}
+
+.container .main .pomo .slider .teste #seconds {
+  color: white;
+  margin-top: 40px;
+}
