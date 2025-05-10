@@ -89,3 +89,16 @@ body {
   color: white;
   margin-top: 40px;
 }
+
+.botao-rodando {
+  opacity: 0.4; /* Ajuste o valor da opacidade conforme desejado (0 a 1) */
+  pointer-events: none; /* Opcional: impede que o botão receba cliques quando rodando */
+}
+.botao-reset-false {
+  opacity: 0.4; /* Ajuste o valor da opacidade conforme desejado (0 a 1) */
+  pointer-events: none; /* Opcional: impede que o botão receba cliques quando rodando */
+}
+.botao-stop-false {
+  opacity: 0.4; /* Ajuste o valor da opacidade conforme desejado (0 a 1) */
+  pointer-events: none; /* Opcional: impede que o botão receba cliques quando rodando */
+}
